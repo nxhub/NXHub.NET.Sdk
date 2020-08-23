@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>0.0.1</Version>
+    <Authors>NXHub</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="sdk/Sdk.props;sdk/Sdk.targets" Pack="true">
+      <PackagePath>sdk/%(Filename)%(Extension)</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
