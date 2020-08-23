@@ -4,12 +4,30 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>0.0.1</Version>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Version>0.0.2</Version>
     <Authors>NXHub</Authors>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>Copyright © NXHub</Copyright>
+    <PackageProjectUrl>https://github.com/nxhub/NXHub.NET.Sdk</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/nxhub/NXHub.NET.Sdk.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>nxhub sdk</PackageTags>
+    <PackageReleaseNotes>信息初始化。</PackageReleaseNotes>
+    <AssemblyVersion>0.0.2.0</AssemblyVersion>
+    <Description>提供 NXHub 包的开发/打包环境。</Description>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="sdk/Sdk.props;sdk/Sdk.targets" Pack="true">
       <PackagePath>sdk/%(Filename)%(Extension)</PackagePath>
     </None>
