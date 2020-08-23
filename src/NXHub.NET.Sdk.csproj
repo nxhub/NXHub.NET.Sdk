@@ -4,7 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseExpression></PackageLicenseExpression>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\nxhub.snk</AssemblyOriginatorKeyFile>
     <Version>0.0.2</Version>
     <Authors>NXHub</Authors>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
