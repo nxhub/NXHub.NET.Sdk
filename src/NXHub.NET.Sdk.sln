@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30404.54
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXHub.NET.Sdk", "NXHub.NET.Sdk.csproj", "{9E3987E4-5416-4063-9941-A81E0D40D026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NXHub.NET.Sdk", "NXHub.NET.Sdk.csproj", "{9E3987E4-5416-4063-9941-A81E0D40D026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NXHub.NET.Sdk.Sample", "NXHub.NET.Sdk.Sample\NXHub.NET.Sdk.Sample.csproj", "{D0CF909C-CC71-4863-80FB-E1C242350AD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9E3987E4-5416-4063-9941-A81E0D40D026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E3987E4-5416-4063-9941-A81E0D40D026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E3987E4-5416-4063-9941-A81E0D40D026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CF909C-CC71-4863-80FB-E1C242350AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CF909C-CC71-4863-80FB-E1C242350AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CF909C-CC71-4863-80FB-E1C242350AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CF909C-CC71-4863-80FB-E1C242350AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
